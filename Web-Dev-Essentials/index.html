@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form autocomplete="on">
+      <div class="form-s">
+        <h1 id="topic">MR M's Shack</h1>
+        <p>Monday to Friday<br> 
+           11am-5pm<br>
+           <span class="offer">Special offer- £12.99</span><br>
+           <br>
+           Inludes Burger, snack, and drink.
+        </p>
+
+        <div class="top-s">
+          <div>
+            <h3>Order Information</h3>
+          </div>
+
+          <div id="name">
+            <label for="fname">Name</label>
+            <input id="fname" type="text" style="width: 200px;"/>
+         </div>
+
+          <div>
+            <label for="here">Dine in</label>
+            <input id="here" type="radio" name="in-out"/>
+          </div>
+
+          <div>
+           <label for="togo">Takeaway</label>
+           <input id="togo" type="radio"name="in-out" />
+         </div>
+      </div>
+
+      <div class="middle-s">
+        <div>
+          <h3>Pick a handmade burger</h3>
+        </div>
+        <div>
+          <label for="ham">Hamburger</label>
+          <input id="ham" type="radio" name="burger"/>
+        </div>
+
+        <div>
+          <label for="cheese">Cheeseburger</label>
+          <input id="cheese" type="radio" name="burger"/>
+        </div>
+
+        <div>
+          <label for="bacon">Baconburger</label>
+          <input id="bacon" type="radio" name="burger"/>
+        </div>
+        
+        <div>
+          <label for="hot">Jalopenio burger</label>
+          <input id="hot" type="radio" name="burger"/>
+        </div>
+
+        <div>
+          <label for="veg">Veggie burger</label>
+          <input id="veg" type="radio" name="burger"/>
+        </div>
+        <br>
+        <div class="gluten">
+          <label for="gluten">Gluten Free Bun</label>
+          <input type="checkbox" id="gluten"/>
+        </div>
+      </div>  
+
+      <div class="bottom-s">
+        <div>
+          <h3>Pick a snack</h3>
+        </div>
+        <div>
+          <label for="veg">Fries</label>
+          <input id="veg" type="radio" name="snack"/>
+        </div>
+
+        <div>
+          <label for="veg">Cheesy Fries</label>
+          <input id="veg" type="radio" name="snack"/>
+        </div>
+
+        <div>
+          <label for="veg">Veg pack</label>
+          <input id="veg" type="radio" name="snack"/>
+        </div>
+      </div>
+
+      <div class="drinks">
+        <div>
+          <h3>Drinks</h3>
+        </div>
+
+        <div id="options">
+          <label for="drinks">Options</label>
+          <select>
+          <optgroup label="Soda's">
+            <option value="0">Coke</option>
+            <option value="1">Diet coke</option>
+            <option value="2">Fanta</option>
+          </optgroup>
+          <optgroup label="Tea's">
+            <option value="0">White tea</option>
+            <option value="1">Green tea</option>
+            <option value="2">Black tea</option>
+          </optgroup>
+          <optgroup label="Smoothies">
+            <option value="0">Bannana</option>
+            <option value="1">Strawberry</option>
+            <option value="2">Mango</option>
+          </optgroup>
+          </select>
+        </div>
+
+        <div class="ldrinks">
+          <label for="large">large Drink (50p extra)</label>
+          <input id="large" type="checkbox"/>
+        </div>
+
+      </div>
+      </div>
+
+      <div class="button">
+      <button>Place Order</button>
+    </div>
+    </form>
+  
+</body>
+</html>
